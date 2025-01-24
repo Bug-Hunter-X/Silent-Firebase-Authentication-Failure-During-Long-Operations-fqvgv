@@ -1,0 +1,1 @@
+This repository demonstrates a bug in the Firebase JavaScript SDK where authentication token expiration during lengthy operations leads to silent failures. The `authFailure.js` file showcases the problematic scenario, while `authSolution.js` provides a solution using token refresh mechanisms. The issue is challenging to debug because the error isn't explicitly thrown.
